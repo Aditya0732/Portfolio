@@ -14,19 +14,19 @@ export const Projects = () => {
       title: "Fitness App",
       description: "Confused with your workout ? Make your workout plan with this website.",
       imgUrl: projImg1,
-      // link: "https://fitnessapp-u8yy.onrender.com/"
+      link: "https://fitnessapp-u8yy.onrender.com/"
     },
     {
       title: "Chat Application",
       description: "Realtime chat application.",
       imgUrl: Chat,
-      // link: "https://fitnessapp-u8yy.onrender.com/"
+      link: "https://myeasychat.000webhostapp.com/"
     },
     {
       title: "T-Shirt Design",
       description: "Customize your T-shirt using AI.",
       imgUrl: tshirt,
-      // link: "https://fitnessapp-u8yy.onrender.com/"
+      link: "https://fitnessapp-u8yy.onrender.com/"
     },
     
   ];

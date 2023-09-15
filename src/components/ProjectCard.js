@@ -5,13 +5,13 @@ export const ProjectCard = ({ title, description, imgUrl,link }) => {
     <Col size={12} sm={6} md={4}>
       <div className="proj-imgbx">
       
-        <img src={imgUrl} />
+      <a href={link}><img src={imgUrl} /></a>
       
         <div className="proj-txtx">
           <h4>{title}</h4>
           
           <span>{description}</span>
-          <h5><a href={link}></a></h5>
+          <h5></h5>
         </div>
       </div>
     </Col>
