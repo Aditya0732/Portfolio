@@ -3,6 +3,7 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project-img1.jpg";
 import Chat from "../assets/img/Chat.jpg";
 import tshirt from "../assets/img/tshirt.jpg";
+import threads from "../assets/img/threads2.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -11,9 +12,55 @@ export const Projects = () => {
 
   const projects = [
     {
+      title: "Threads",
+      description: "Get threaded, get going.",
+      imgUrl: threads,
+      link: "https://github.com/Aditya0732/My_Threads/tree/main"
+    },
+    {
       title: "Fitness App",
       description: "Confused with your workout ? Make your workout plan with this website.",
       imgUrl: projImg1,
+      link: "https://fitnessapp-u8yy.onrender.com/"
+    },
+    
+    // {
+    //   title: "T-Shirt Design",
+    //   description: "Customize your T-shirt using AI.",
+    //   imgUrl: tshirt,
+    //   link: "https://fitnessapp-u8yy.onrender.com/"
+    // },
+    // {
+    //   title: "T-Shirt Design",
+    //   description: "Customize your T-shirt using AI.",
+    //   imgUrl: tshirt,
+    //   link: "https://fitnessapp-u8yy.onrender.com/"
+    // },
+  ];
+
+  const proj = [
+    // {
+    //   title: "Fitness App",
+    //   description: "Confused with your workout ? Make your workout plan with this website.",
+    //   imgUrl: projImg1,
+    //   link: "https://fitnessapp-u8yy.onrender.com/"
+    // },
+    // {
+    //   title: "Chat Application",
+    //   description: "Realtime chat application.",
+    //   imgUrl: Chat,
+    //   link: "https://myeasychat.000webhostapp.com/"
+    // },
+    // {
+    //   title: "T-Shirt Design",
+    //   description: "Customize your T-shirt using AI.",
+    //   imgUrl: tshirt,
+    //   link: "https://fitnessapp-u8yy.onrender.com/"
+    // },
+    {
+      title: "T-Shirt Design",
+      description: "Customize your T-shirt using AI.",
+      imgUrl: tshirt,
       link: "https://fitnessapp-u8yy.onrender.com/"
     },
     {
@@ -22,13 +69,6 @@ export const Projects = () => {
       imgUrl: Chat,
       link: "https://myeasychat.000webhostapp.com/"
     },
-    {
-      title: "T-Shirt Design",
-      description: "Customize your T-shirt using AI.",
-      imgUrl: tshirt,
-      link: "https://fitnessapp-u8yy.onrender.com/"
-    },
-    
   ];
 
   return (
@@ -68,8 +108,19 @@ export const Projects = () => {
                         }
                       </Row>
                     </Tab.Pane>
-                    <Tab.Pane eventKey="section">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                    <Tab.Pane eventKey="second">
+                    <Row>
+                        {
+                          proj.map((project, index) => {
+                            return (
+                              <ProjectCard
+                                key={index}
+                                {...project}
+                                />
+                            )
+                          })
+                        }
+                      </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
                       {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p> */}
