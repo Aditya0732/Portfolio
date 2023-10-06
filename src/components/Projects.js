@@ -15,7 +15,7 @@ export const Projects = () => {
       title: "Threads",
       description: "Get threaded, get going.",
       imgUrl: threads,
-      link: "https://github.com/Aditya0732/My_Threads/tree/main"
+      link: "https://my-threads-one.vercel.app/"
     },
     {
       title: "Fitness App",
