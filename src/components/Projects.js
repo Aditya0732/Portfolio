@@ -3,6 +3,8 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project-img1.jpg";
 import Chat from "../assets/img/Chat.jpg";
 import tshirt from "../assets/img/tshirt.jpg";
+import discord from "../assets/img/discord.jpg";
+import pricetracker from "../assets/img/pricetracker.jpg";
 import threads from "../assets/img/threads2.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
@@ -24,12 +26,12 @@ export const Projects = () => {
       link: "https://fitnessapp-u8yy.onrender.com/"
     },
     
-    // {
-    //   title: "T-Shirt Design",
-    //   description: "Customize your T-shirt using AI.",
-    //   imgUrl: tshirt,
-    //   link: "https://fitnessapp-u8yy.onrender.com/"
-    // },
+    {
+      title: "Discord",
+      description: "",
+      imgUrl: discord,
+      link: "https://github.com/Aditya0732/Discord"
+    },
     // {
     //   title: "T-Shirt Design",
     //   description: "Customize your T-shirt using AI.",
@@ -51,12 +53,12 @@ export const Projects = () => {
     //   imgUrl: Chat,
     //   link: "https://myeasychat.000webhostapp.com/"
     // },
-    // {
-    //   title: "T-Shirt Design",
-    //   description: "Customize your T-shirt using AI.",
-    //   imgUrl: tshirt,
-    //   link: "https://fitnessapp-u8yy.onrender.com/"
-    // },
+    {
+      title: "Price-tracker",
+      description: "Track Your Favorite Amazon Product Price.",
+      imgUrl: pricetracker,
+      link: "https://github.com/Aditya0732/Price-Tracker"
+    },
     {
       title: "T-Shirt Design",
       description: "Customize your T-shirt using AI.",

@@ -46,19 +46,15 @@ export const Skills = () => {
                                 <h5>System Design</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
-                                <h5>HTML</h5>
+                                <img src={meter3} alt="Image" />
+                                <h5>NodeJS</h5>
                             </div>
                             <div className="item">
                                 <img src={meter2} alt="Image" />
-                                <h5>PHP</h5>
+                                <h5>Express</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
-                                <h5>CSS</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter2} alt="Image" />
+                                <img src={meter3} alt="Image" />
                                 <h5>JavaScript</h5>
                             </div>
                             <div className="item">
@@ -66,8 +62,12 @@ export const Skills = () => {
                                 <h5>React</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="Image" />
+                                <img src={meter2} alt="Image" />
                                 <h5>Mongo</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter3} alt="Image" />
+                                <h5>NextJS</h5>
                             </div>
                         </Carousel>
                     </div>
